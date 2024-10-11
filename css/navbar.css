@@ -1,0 +1,116 @@
+
+
+body {
+    background-color: #121113;
+    color: #E0E0E0;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.para{
+    font-family: 'Clash Display', sans-serif !important;
+}
+
+p {
+    color: #a7c957;
+}
+
+.Navbar {
+    /* width: 100%; */
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    background: rgba(254, 250, 224, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(254, 250, 224, 0.14);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.menu .a {
+    color: #A7C957;
+    text-decoration: none;
+    padding: 12px 20px;
+
+    /* background-color: red; */
+    font-weight: 500;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu .a:hover {
+    color: #FEFAE0;
+    background-color: #BC6C25;
+}
+
+.Navbar a {
+    color: #a7c957;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: 300;
+    text-align: right;
+    font-family: 'Clash Display', sans-serif;
+}
+
+
+.navcont{
+    font-size: 18px;
+}
+
+.logoimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #121314;
+    top: 100%;
+    gap: 15px;
+    padding: 16px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.content div{
+    margin-top: 15px;
+}
+
+
+#Logo {
+    color: #ffecd1;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo-div{
+    display: flex;
+}
+
+#Subcon{
+    /* margin-bottom: 5px;
+    margin-top: 5px; */
+    padding: 10px;
+    background:inherit;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#Subcon:hover{
+    /* background-color: #bc6c25; */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

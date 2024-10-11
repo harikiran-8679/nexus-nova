@@ -1,0 +1,256 @@
+body {
+    background-color: #121113;
+}
+
+p {
+    color: #ffecd1;
+    font-weight: bold;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.Navbar {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(129, 102, 102, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+#Logo,h3 {
+    color: #ffecd1;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fa-user{
+    margin-top: 5px;
+    font-size: large;
+    transform: translate(1170px);
+    padding: 12px;
+}
+
+.SearchBar{
+    margin-top: 48px;
+}
+
+.SearchBar h3{
+    margin-left: 5%;
+    font-family: 'Satoshi', sans-serif;
+    color: #a7c957;
+}
+
+.Bar{
+    display: flex;
+}
+
+input{
+    transform: translate(75px);
+    width: 50%;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.fa-magnifying-glass
+{
+    transform: translate(35px,18px);
+    font-weight: bold;
+}
+
+#quote{
+    margin-left: 18%;
+    opacity: 0.5;
+    font-size: 106%;
+    color: #dad7cd;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.Container{
+    display: flex;
+}
+
+#Section{
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.Content01{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(129, 102, 102, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content01 img{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.Content01 p{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.Spanner{
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    margin-left: 5%;
+}
+
+.Margin1{
+    margin-left: 12px;
+}
+
+.Margin2{
+    margin-left: 16px;
+}
+
+.Margin2 a{
+    color: #a7c957;
+    text-decoration: none;
+}
+
+/* matter and text css */
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-data{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.data{
+    text-align: justify;
+}
+
+.image{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+.main-div{
+    margin-left: 65px;
+    margin-right: 65px;
+    color: #ffecd1;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.para{
+    font-size: 20px;
+}
+
+/* steps css */
+
+.main-div{
+
+}
+
+
+.img1{
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.steps-div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.steps{
+    gap: 10px;
+}
+
+
+.step1{
+    display: flex;
+}
+
+.step1{
+    display: flex;
+    justify-content: center;
+}
+
+.step2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.step3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.step4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.step5{
+    display: flex;
+    
+}
+
+
+
+.img2{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.img3{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img4{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img5{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.btn-div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #A7C957;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 0px #A7C957;
+}
+
+.btn:active{
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+

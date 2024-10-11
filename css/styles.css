@@ -1,0 +1,276 @@
+
+
+body {
+    background-color: #121113;
+    color: #E0E0E0;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.para{
+    font-family: 'Clash Display', sans-serif !important;
+}
+
+p {
+    color: #a7c957;
+}
+
+.Navbar {
+    /* width: 100%; */
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    background: rgba(254, 250, 224, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(254, 250, 224, 0.14);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.menu .a {
+    color: #A7C957;
+    text-decoration: none;
+    padding: 12px 20px;
+
+    /* background-color: red; */
+    font-weight: 500;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu .a:hover {
+    color: #FEFAE0;
+    background-color: #BC6C25;
+}
+
+.Navbar a {
+    color: #a7c957;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: 300;
+    text-align: right;
+    font-family: 'Clash Display', sans-serif;
+}
+
+
+.navcont{
+    font-size: 18px;
+}
+
+.logoimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #121314;
+    top: 100%;
+    gap: 15px;
+    padding: 16px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.content div{
+    margin-top: 15px;
+}
+
+
+#Logo {
+    color: #ffecd1;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo-div{
+    display: flex;
+}
+
+#Subcon{
+    /* margin-bottom: 5px;
+    margin-top: 5px; */
+    padding: 10px;
+    background:inherit;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#Subcon:hover{
+    /* background-color: #bc6c25; */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* .content a{
+     margin: 10px; 
+     margin-bottom: 30px; 
+} 
+
+ .container:hover .content{
+    display: block;
+    background-color: #121212;
+    padding: 16px;
+    border-radius: 10px;
+} */
+
+
+
+
+
+/* .Navbar a:hover {
+    color: #fefae0;
+    background-color: #bc6c25;
+    width: 8%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 13px;
+} */
+
+/* .Navbar p {
+    color: #a7c957;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Clash Display', sans-serif;
+} */
+
+
+
+.Intro {
+    margin: 1%;
+    display: flex;
+}
+
+.Intro p {
+    color: #a7c957;
+    text-decoration: none;
+    margin-top: 1.7%;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 12px;
+    font-size: 120%;
+}
+
+#Links {
+    background-color: #a7c957;
+    text-decoration: none;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 13px 17px;
+    margin-left: 18px;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+#Links:hover {
+    color: white;
+    background-color: #bc6c25;
+}
+
+#links:active{
+    transform: scale(0.98);
+}
+
+.Catlog h3 {
+    margin-top: 38px;
+    margin-left: 2%;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.Flexbox .Flexing {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.Contont {
+    justify-content: center;
+    background: rgba(254, 250, 224, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(254, 250, 224, 0.14);
+    backdrop-filter: blur(4px);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 18px;
+    border-radius: 18px;
+    width: 100%;
+    height: 160px;
+    transition: transform 0.3s ease 0s;
+}
+
+.Contont:hover {
+    transform: scale(1.05);
+}
+
+.Flexing h4 {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.WhyThis {
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    justify-content: center;
+    padding: 12px;
+}
+
+
+
+h2 {
+    margin-left: 13px;
+    font-family: 'Clash Display', sans-serif;
+    color: #fefae0;
+}
+
+.WhyThis p {
+    margin-left: 13px;
+    font-size: 120%;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.WhyThis h3 {
+    margin-left: 13px;
+    font-size: 120%;
+    color: #fefae0;
+    font-weight: 100;
+    font-family: 'Clash Display', sans-serif;
+}
+
+/* footer */
+
+.Spanner{
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    margin-left: 5%;
+}
+
+.Margin1{
+    margin-left: 12px;
+}
+
+.Margin2{
+    margin-left: 16px;
+}
+
+.Margin2 a{
+    color: #a7c957;
+    text-decoration: none;
+}

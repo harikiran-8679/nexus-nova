@@ -1,0 +1,153 @@
+body {
+    background-color: #f9f7f3;
+}
+
+p {
+    color: #283618;
+    font-weight: bold;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.Navbar {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 18px 0 #6c757d;
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+#Logo,h3 {
+    color: #432818;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fa-user{
+    margin-top: 5px;
+    font-size: large;
+    transform: translate(990px);
+    padding: 12px;
+}
+
+.SearchBar{
+    margin-top: 48px;
+}
+
+.SearchBar h3{
+    margin-left: 5%;
+    font-family: 'Satoshi', sans-serif;
+    color: #212529;
+}
+
+.Bar{
+    display: flex;
+}
+
+input{
+    transform: translate(75px);
+    width: 50%;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.fa-magnifying-glass
+{
+    transform: translate(35px,18px);
+    font-weight: bold;
+}
+
+#quote{
+    margin-left: 18%;
+    opacity: 0.5;
+    font-size: 106%;
+    color: #2f3e46;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.Profile_Content{
+    display: flex;
+}
+
+.Profile_Container{
+    display: flex;
+    margin-left: 60%; 
+    margin-top: 1.43%;
+}
+
+.Skills{
+    margin-left: 5%; 
+}
+
+.Container{
+    display: flex;
+    margin-right: 5%; 
+    margin-top: 4%;
+}
+
+#Section{
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.Content01{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 18px 0 #6c757d;
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content01:hover{
+    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+}
+
+.Content01 img{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.Content01 p{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.stardom{
+    justify-content: center;
+    text-align: center;
+    margin-left: 2.43%;
+}
+
+.Spanner{
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    margin-left: 5%;
+}
+
+.Margin1{
+    margin-left: 12px;
+}
+
+.Margin2{
+    margin-left: 16px;
+}
+
+.Margin2 a{
+    color: #432818;
+    text-decoration: none;
+}
+
+.Portfolio{
+    margin-left: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #432818;
+}
