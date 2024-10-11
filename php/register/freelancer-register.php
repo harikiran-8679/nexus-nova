@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer-Register</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/freelancer-register.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <link rel="stylesheet" href="../../css/freelancer-register.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="logo">
-		<a href="index.php">NexusNova</a>
+		<a href="../../index.php">NexusNova</a>
 	</div>
     <div class="main-div" id="main-div">
         <div class="heading-div">
@@ -21,7 +21,7 @@
         <div class="span-div" id="span-div">
             <label class="span" id="span"></label>
         </div>
-        <form action="store_selection.php" method="post">
+        <form action="freelancer_register.php" method="post">
             <div class="first-last-name-div">
                 <div class="firstname-div">
                     <input type="text" name="fname" placeholder="Firstname" class="field" required>
@@ -74,7 +74,7 @@
             </div>
 
             <div class="login-div">
-                <p>Already have an Account? <a href="LGNFRM.php" class="login">Login</a> </p>
+                <p>Already have an Account? <a href="../login/LGNFRM.php" class="login">Login</a> </p>
             </div>
         </form>
     </div>

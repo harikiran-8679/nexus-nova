@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'database.php';
+include '../model/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
@@ -20,11 +20,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION["email"] = $data->email;
         $_SESSION["fname"] = $data->fname;
         $_SESSION["subscription"] = $data->subscription;
-        header("Location: profile.php");
+        header("Location: ../profiles/profile.php");
       }
       else 
       {
-       echo"incorrect password..!";
+        echo "<script>
+                alert('Incorrect password');
+                window.location.href = '../login/client-login.php';
+                </script>";
       }
     }
 }

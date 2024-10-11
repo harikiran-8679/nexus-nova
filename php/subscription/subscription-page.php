@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['fname'])) {
-    header('Location: client-register.php'); // Redirect to signup if session is not set
+    header('Location: ../register/client-register.php'); // Redirect to signup if session is not set
     exit();
 }
 ?>
@@ -13,8 +13,8 @@ if (!isset($_SESSION['fname'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/subscription.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <link rel="stylesheet" href="../../css/subscription.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +22,7 @@ if (!isset($_SESSION['fname'])) {
         
         <div class="logo-div">
             <div>
-                <img src="images/2.png" class="logoimg">
+                <img src="../../images/2.png" class="logoimg">
             </div>
             
             <div>
@@ -41,7 +41,7 @@ if (!isset($_SESSION['fname'])) {
                     </div>
 
                     <div>
-                        <a id="Subcon" href="freelancerz.php">Hire a Freelancer</a> 
+                        <a id="Subcon" href="../search/freelancerz.php">Hire a Freelancer</a> 
                     </div>
 
                     
@@ -80,13 +80,13 @@ if (!isset($_SESSION['fname'])) {
         <h2>Pick Your plan and Start, Cancel Anytime</h2>
     </div>
 
-    <form action="profile.php" method="post">
+    <form action="../profiles/profile.php" method="post">
         <div class="flexbox">
             <div class="cards">
                 <label for="subscription">
                     <input type="radio" name="subscription" id="subscription" value="BASIC"><h5 >BASIC</h5>
                 </label>
-                <img src="images/pluto.png" alt="" height="40%" width="40%">
+                <img src="../../images/pluto.png" alt="" height="40%" width="40%">
                 <p>$59.67 <br>
                     - Monthly <br>
                     - Standard Communication <br>
@@ -97,7 +97,7 @@ if (!isset($_SESSION['fname'])) {
                 <label for="subscription">
                     <input type="radio" name="subscription" id="subscription" value="STANDARD"><h5 >STANDARD</h5>
                 </label>
-                <img src="images/donald-duck.png" alt="" height="40%" width="40%">
+                <img src="../../images/donald-duck.png" alt="" height="40%" width="40%">
                 <p>$179.04 <br>
                     - Yearly <br>
                     - Unlimited Communication <br>
@@ -108,7 +108,7 @@ if (!isset($_SESSION['fname'])) {
                 <label for="subscription">
                     <input type="radio" name="subscription" id="subscription" value="PREMIUM"><h5 >PREMIUM</h5>
                 </label>
-                <img src="images/mickey-mouse.png" alt="" height="40%" width="40%">
+                <img src="../../images/mickey-mouse.png" alt="" height="40%" width="40%">
                 <p>$298.43 <br>
                     - Lifetime <br>
                     - Unlimited Communication <br>

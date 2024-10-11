@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Client-Register</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/client-register.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <link rel="stylesheet" href="../../css/client-register.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="logo">
-		<a href="index.php">Nexus Nova</a>
+		<a href="../../index.php">Nexus Nova</a>
 	</div>
     <div class="main-div" id="main-div">
         <div  class="heading-div">
@@ -22,7 +22,7 @@
             <label id="span-cont"></label>
         </div>
 
-        <form action="client-register.php" method="post" class="form" id="form">
+        <form action="client_register.php" method="post" class="form" id="form">
             <div class="first-last-name-div">
                 <div class="firstname-div">
                     <input type="text" name="fname" placeholder="Firstname Here!" class="field" required>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="login-div"> 
-                <p>Already have an Account? <a href="LGNFRM.php" class="login">Login</a> </p>
+                <p>Already have an Account? <a href="../login/LGNFRM.php" class="login">Login</a> </p>
             </div>
         </form>
     </div>
@@ -91,43 +91,3 @@
 </body>
 </html>
 
-<?php
-session_start(); // Start a session to store user data temporarily
-$servername = "localhost:3350";
-$username = "root";  // Change to your database username
-$password = "";  // Change to your database password
-$dbname = "freelancer_db";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $mobile = $_POST['mobile'];
-        $email = $_POST['email'];
-        $pass = $_POST['pass']; // Encrypt password
-
-        $sql = "INSERT INTO client_register (fname, lname, mobile, email, pass) VALUES ('$fname', '$lname', '$mobile', '$email', '$pass')";
-
-        if ($conn->query($sql) === TRUE) {
-            // Store the user's ID and name in the session
-            $_SESSION['fname'] = $fname;
-            $_SESSION['email'] = $email;
-            $_SESSION['mobile'] = $mobile;
-
-            // Redirect to the subscription page
-            header("Location: subscription-page.php");
-            exit();
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
-    }
-
-    $conn->close();
-?>

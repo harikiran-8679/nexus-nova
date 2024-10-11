@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/howtohire.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <link rel="stylesheet" href="../../css/howtohire.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
     <title>How It Works</title>
 </head>
@@ -15,16 +15,16 @@
         
         <div class="logo-div">
             <div>
-                <a id="Logo" href="index.php">Nexus Nova</a>
+                <a id="Logo" href="../../index.php">Nexus Nova</a>
             </div>
         </div>
         
         <div class="menu">
-            <a class="StylingForFew a navcont" href="freelancerz.php">Find talent</a>
-            <a class="StylingForFew a navcont" href="clientz.php">Find Work</a> <br>
+            <a class="StylingForFew a navcont" href="../search/freelancerz.php">Find talent</a>
+            <a class="StylingForFew a navcont" href="../search/clientz.php">Find Work</a> <br>
             <a class="StylingForFew a navcont" href="aboutuspage.php">About Us</a>
-            <a class="StylingForFew a navcont" href="LGNFRM.php">Login</a>
-            <a class=" StylingForFew a navcont" href="RGSTRFRM.php">SignUp</a>
+            <a class="StylingForFew a navcont" href="../login/LGNFRM.php">Login</a>
+            <a class=" StylingForFew a navcont" href="../register/RGSTRFRM.php">SignUp</a>
         </div>
         
         
@@ -49,7 +49,7 @@
         </div>
                 
         <div class="imgdiv1">
-            <img src="images/howtohireimg1.png" class="image">
+            <img src="../../images/howtohireimg1.png" class="image">
         </div> 
     </div>
 
@@ -66,7 +66,7 @@
                 - You can adjust categories, skills for a cistom tailored experience. <br>
             </p> 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg3.png" class="img1 steps-img">
+                <img src="../../images/howtohireimg3.png" class="img1 steps-img">
             </div>
         </div>
 
@@ -82,7 +82,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg6.png" class="img2">
+                <img src="../../images/howtohireimg6.png" class="img2">
             </div>
     
         </div>
@@ -95,7 +95,7 @@
            </p>
 
            <div class="stepsimgdiv">
-            <img src="images/howtohireimg4.jpg" class="img3">
+            <img src="../../images/howtohireimg4.jpg" class="img3">
         </div>
         </div>
         
@@ -108,7 +108,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg5.png" class="img4">
+                <img src="../../images/howtohireimg5.png" class="img4">
             </div>
         </div>
         
@@ -120,7 +120,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg2.jpg" class="img5">
+                <img src="../../images/howtohireimg2.jpg" class="img5">
             </div>
         </div>
 
@@ -130,7 +130,7 @@
     </div>
     </div>
     <div class="btn-div">
-        <button onclick="document.location='RGSTRFRM.php'" class="btn">Lets Gets Started!</button>
+        <button onclick="document.location='../register/RGSTRFRM.php'" class="btn">Lets Gets Started!</button>
     </div>
 
     <br>
@@ -150,13 +150,12 @@
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-            <a href="clientz.php">For Clients</a> <br>
-            <a href="freelancerz.php">For Freelancers</a> <br>
-            <a href="howtohire.php">How does it work?</a> <br>
+            <a href="../search/clientz.php">For Clients</a> <br>
+            <a href="../search/freelancerz.php">For Freelancers</a> <br>
             <a href="aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
     

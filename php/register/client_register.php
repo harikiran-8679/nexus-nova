@@ -18,10 +18,9 @@ if ($conn->connect_error) {
         $lname = $_POST['lname'];
         $mobile = $_POST['mobile'];
         $email = $_POST['email'];
-        $selected_option = $_POST['option'];
-        $pass = password_hash($_POST['pass'], PASSWORD_DEFAULT); // Encrypt password
+        $pass = $_POST['pass']; // Encrypt password
 
-        $sql = "INSERT INTO freelancer_register (fname, lname, mobile, email, myrole, pass) VALUES ('$fname', '$lname', '$mobile', '$email', '$selected_option', '$pass')";
+        $sql = "INSERT INTO client_register (fname, lname, mobile, email, pass) VALUES ('$fname', '$lname', '$mobile', '$email', '$pass')";
 
         if ($conn->query($sql) === TRUE) {
             // Store the user's ID and name in the session
@@ -30,7 +29,7 @@ if ($conn->connect_error) {
             $_SESSION['mobile'] = $mobile;
 
             // Redirect to the subscription page
-            header("Location: freelancer_subscription-page.php");
+            header("Location: ../subscription/subscription-page.php");
             exit();
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clients</title>
-    <link rel="stylesheet" href="css/clientz.css">
+    <link rel="stylesheet" href="../../css/clientz.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a href="index.php">Nexus Nova</a>
+            <a href="../../index.php">Nexus Nova</a>
         </div>
         <div class="input-div-main">
             <div class="input-div">
@@ -19,10 +19,10 @@
                     <input type="text" class="search" id="search" placeholder="Find Work">
                 </div>
                 <div>
-                    <button onclick="" class="srch-btn" id="srchbtn"><img src="images/search.png" class="srch-img"></button>
+                    <button onclick="" class="srch-btn" id="srchbtn"><img src="../../images/search.png" class="srch-img"></button>
                 </div>
                 <div class="filter-div">
-                    <button onclick="" class="filter-btn" id="filterbtn"><img src="images/filter.png" class="filter-img"></button>
+                    <button onclick="" class="filter-btn" id="filterbtn"><img src="../../images/filter.png" class="filter-img"></button>
                     <div class="dropdowndiv" id="dropdowncontainer">
 
                         <div class="dropdownlinks-div">
@@ -101,7 +101,7 @@
                     <div class="cards" data-name="web Developer">
                         Chandra
                         <div class="card-data">
-                            <img src="images/man4.png" class="card-image">
+                            <img src="../../images/man4.png" class="card-image">
                             <div class="card-name">Chandra</div>
                             <div class="card-company">Company</div>
                             <div class="card-email">chandrachintu2007@gmail.com</div>
@@ -114,7 +114,7 @@
                     <div class="cards" data-name="editor">
                         Tejaswini
                         <div class="card-data">
-                            <img src="images/avatar.png" class="card-image">
+                            <img src="../../images/avatar.png" class="card-image">
                             <div class="card-name">Tejaswini</div>
                             <div class="card-company">Personal</div>
                             <div class="card-email">Tejaswini@gmail.com</div>
@@ -126,7 +126,7 @@
                     <div class="cards" data-name="Content Writng">
                         Hari
                         <div class="card-data">
-                            <img src="images/man1.png" class="card-image">
+                            <img src="../../images/man1.png" class="card-image">
                             <div class="card-name">Harikiran</div>
                             <div class="card-company">Personal</div>
                             <div class="card-email">harikiran.b2007@gmail.com</div>
@@ -140,7 +140,7 @@
                     <div class="cards" data-name="Graphic Designer">
                         Harsha
                         <div class="card-data">
-                            <img src="images/man6.png" class="card-image">
+                            <img src="../../images/man6.png" class="card-image">
                             <div class="card-name">Harsha</div>
                             <div class="card-company">Personal</div>
                             <div class="card-email">harsha@gmail.com</div>
@@ -152,7 +152,7 @@
                     <div class="cards" data-name="editor">
                         Asritha
                         <div class="card-data">
-                            <img src="images/avatar2.png" class="card-image">
+                            <img src="../../images/avatar2.png" class="card-image">
                             <div class="card-name">Asritha</div>
                             <div class="card-company">Company</div>
                             <div class="card-email">Asritha@gmail.com</div>
@@ -164,7 +164,7 @@
                     <div class="cards" data-name="web developer">
                         Rakshan
                         <div class="card-data">
-                            <img src="images/man3.png" class="card-image">
+                            <img src="../../images/man3.png" class="card-image">
                             <div class="card-name">Rakshan</div>
                             <div class="card-company">Company</div>
                             <div class="card-email">rakshan@gmail.com</div>
@@ -176,7 +176,7 @@
                     <div class="cards" data-name="Content writing">
                         Alex
                         <div class="card-data">
-                            <img src="images/man4.png" class="card-image">
+                            <img src="../../images/man4.png" class="card-image">
                             <div class="card-name">Alex</div>
                             <div class="card-company">Personal</div>
                             <div class="card-email">Alex@gmail.com</div>
@@ -188,7 +188,7 @@
                     <div class="cards" data-name="editor">
                         Jack
                         <div class="card-data">
-                            <img src="images/man5.png" class="card-image">
+                            <img src="../../images/man5.png" class="card-image">
                             <div class="card-name">Jack</div>
                             <div class="card-company">Company</div>
                             <div class="card-email">Jack@gmail.com</div>
@@ -203,7 +203,7 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <div class="modal-img">
-                    <img src="images/avatar.png" class="modal-image" id="modal-image">
+                    <img src="../../images/avatar.png" class="modal-image" id="modal-image">
                 </div>
                 
                 <div class="modal-data">
@@ -240,13 +240,12 @@
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-            <a style="color:#ffecd1" href="clientz.php">For Clients</a> <br>
             <a style="color:#ffecd1" href="freelancerz.php">For Freelancers</a> <br>
-            <a style="color:#ffecd1" href="howtohire.php">How does it work?</a> <br>
-            <a style="color:#ffecd1" href="aboutuspage.php">About Us</a>
+            <a style="color:#ffecd1" href="../about/howtohire.php">How does it work?</a> <br>
+            <a style="color:#ffecd1" href="../about/aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
 

@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/aboutusStyle.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
+    <link rel="stylesheet" href="../../css/aboutusStyle.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="Navbar" style="margin-bottom: 3%;">
-        <a id="Logo" href="index.php">Nexus Nova</a>
+        <a id="Logo" href="../../index.php">Nexus Nova</a>
     </div>
 
     <div class="video-text">
         <video controls autoplay muted>
-            <source src="videos/about us.mp4" type="video/mp4">
+            <source src="../../videos/about us.mp4" type="video/mp4">
         </video>
         <p class="para">
             Nexus Nova, a freelancing website that aims to revolutionize the way businesses and freelancers collaborate.
@@ -32,7 +32,7 @@
             Nexus Nova is the ultimate platform connecting talented freelancers with businesses and entrepreneurs. <br>
             Our subscription-based model ensures predictable costs and priority support for clients, while providing freelancers with a guaranteed income and opportunities for long-term relationships. <br>
             With a focus on quality, flexibility, and simplicity, our platform streamlines the freelancing process, making it easier for clients to find top talent and for freelancers to grow their businesses.
-            <img src="images/img3.jpg" width="300px" height="300px" alt="Company Image">
+            <img src="../../images/img3.jpg" width="300px" height="300px" alt="Company Image">
         </p>
            
     </div>
@@ -57,13 +57,13 @@
         <h2>How to Make it Work at Nexus Nova</h2>
         <div class="image-div">
             <div class="btn-div-1">
-                <img src="images/aboutus1.jpg" width="450px" height="500px">
+                <img src="../../images/aboutus1.jpg" width="450px" height="500px">
                 <!-- <div class="btn-1-1">
                     <button onclick="document.location='newpage.php'" class="btn">How to Hire</button>
                 </div> -->
             </div>
             <div class="btn-div-2">
-                <img src="images/aboutus2.jpg" width="450px" height="500px">
+                <img src="../../images/aboutus2.jpg" width="450px" height="500px">
                 <!-- <div class="btn-1-2">
                     <button onclick="document.location='newpage.php'" class="btn">Find Work</button>
                 </div> -->
@@ -88,13 +88,12 @@
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-            <a style="color:#ffecd1" href="clientz.php">For Clients</a> <br>
-            <a style="color:#ffecd1" href="freelancerz.php">For Freelancers</a> <br>
+            <a style="color:#ffecd1" href="../search/clientz.php">For Clients</a> <br>
+            <a style="color:#ffecd1" href="../search/freelancerz.php">For Freelancers</a> <br>
             <a style="color:#ffecd1" href="howtohire.php">How does it work?</a> <br>
-            <a style="color:#ffecd1" href="aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
 

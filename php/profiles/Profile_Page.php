@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" Contont="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <link rel="stylesheet" href="css/Profile.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <link rel="stylesheet" href="../../css/Profile.css">
     <title>Nexus Nova</title>
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=melodrama@400&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@
         </div>
         <div class="Profile_Container">
             <a id="Section" href=""><div class="Content01">
-                <img src="images/Profile01.png" alt="" height="70px" style="margin-left: 27%;"> 
+                <img src="../../images/Profile01.png" alt="" height="70px" style="margin-left: 27%;"> 
                 <h3 style="margin-left: 2%; margin-top: 4%; padding: 18px;"></h3>
             </div></a>
         </div>
@@ -73,14 +73,14 @@
     <h3 style="margin-left: 5%;">Freelancers You Worked With Previously!</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">
                  Rakshan Kumar <br>
                   <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i>
                 </p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 43px;">Chandra <br> 
                 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
               </p>
@@ -106,7 +106,7 @@
             <a href="#">For Freelancers</a> <br>
             <a href="#">How to Find work?</a> <br>
             <a href="#">How does it work?</a> <br>
-            <a href="aboutuspage.php">About Us</a>
+            <a href="../about/aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
             <p>Provide us with a review over here: &nbsp;<a href="mailto:chandrachintu2007@gmail.com"><img style="transform: translate(0px,3px);" src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
