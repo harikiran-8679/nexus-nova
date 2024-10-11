@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" Content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
         <title>Nexus Nova</title>
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
@@ -29,11 +29,11 @@
                     <div class="content">
 
                         <div>
-                            <a id="Subcon" href="howtohire.php">How to hire a freelancer</a>
+                            <a id="Subcon" href="php/about/howtohire.php">How to hire a freelancer</a>
                         </div>
 
                         <div>
-                            <a id="Subcon" href="freelancerz.php">Hire a freelancer</a>
+                            <a id="Subcon" href="php/search/freelancerz.php">Hire a freelancer</a>
                         </div>
 
                     </div>
@@ -44,18 +44,18 @@
 
 
                         <div>
-                            <a id="Subcon" href="howtohire.php">How to find work and earn money</a>
+                            <a id="Subcon" href="php/about/howtohire.php">How to find work and earn money</a>
                         </div>
 
 
                         <div>
-                            <a id="Subcon" href="clientz.php">Find clients</a> <br>
+                            <a id="Subcon" href="php/search/clientz.php">Find clients</a> <br>
                         </div>
                     </div>
                 </div>
-                <a class="StylingForFew a navcont" href="aboutuspage.php">About Us</a>
-                <a class="StylingForFew a navcont" href="LGNFRM.php">Login</a>
-                <a class=" StylingForFew a navcont" href="RGSTRFRM.php">SignUp</a>
+                <a class="StylingForFew a navcont" href="php/about/aboutuspage.php">About Us</a>
+                <a class="StylingForFew a navcont" href="php/login/LGNFRM.php">Login</a>
+                <a class=" StylingForFew a navcont" href="php/register/RGSTRFRM.php">SignUp</a>
             </div>
         </div>
 
@@ -73,14 +73,20 @@
                     a
                     world of possibilities, where your next big project or career milestone is just a click away.</p>
 
-                <a id="Links" href="clientz.php">Hire Freelancer</a>
-                <a id="Links" href="freelancerz.php">Earn Money</a>
+                <a id="Links" href="php/search/clientz.php">Hire Freelancer</a>
+                <a id="Links" href="php/search/freelancerz.php">Earn Money</a>
 
             </div>
 
             <img src="images/draft5.jpeg" width="450px" height="241px" style="border-radius: 18px; margin-left: 8px;">
 
         </div>
+
+        <div class="video-div">
+            <video controls autoplay muted style="border-radius: 18px;" class="homevideo">
+            <source src="videos/homepagevideo.mp4" type="video/mp4">
+            </video>
+         </div>
 
         <div class="Catlog">
             <h3>Find <span>Top</span> Freelancers</h3>
@@ -160,10 +166,10 @@
                 <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin" />
             </div>
             <div class="Margin2" style="margin: 1.7%;">
-            <a style="color:#ffecd1" href="clientz.php">For Clients</a> <br>
-            <a style="color:#ffecd1" href="freelancerz.php">For Freelancers</a> <br>
-            <a style="color:#ffecd1" href="howtohire.php">How does it work?</a> <br>
-            <a style="color:#ffecd1" href="aboutuspage.php">About Us</a>
+            <a style="color:#ffecd1" href="php/search/clientz.php">For Clients</a> <br>
+            <a style="color:#ffecd1" href="php/search/freelancerz.php">For Freelancers</a> <br>
+            <a style="color:#ffecd1" href="php/about/howtohire.php">How does it work?</a> <br>
+            <a style="color:#ffecd1" href="php/about/aboutuspage.php">About Us</a>
             </div>
             <div class="Margin1">
                 <p style="color:#ffecd1">Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img  src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>

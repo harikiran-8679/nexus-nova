@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Register</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-	<link rel="stylesheet" href="css/RGSTR.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+	<link rel="stylesheet" href="../../css/RGSTR.css">
 	<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,9 +14,9 @@
 
 	<div class="main-div">
 		<div class="logo">
-			<a href="index.php">Nexus Nova</a>
+			<a href="../../index.php">Nexus Nova</a>
 		</div>
-			<center><h2 class="para">Join as a Client or Freelancer</h2></center>
+			<center><h2 class="para">Join as a Client or Freelancer!</h2></center>
 		<div class="buttons">
 			<div>
 				<button class="btn" id="btn1">Hiring for a project </button>
@@ -34,7 +34,7 @@
 
 		<div class="login-div">
 			<p class="login-para">
-				Already have an Account? <a href="LGNFRM.php"  class="login">login</a>
+				Already have an Account? <a href="../login/LGNFRM.php"  class="login">login</a>
 			</p>
 		</div>
 	</div>

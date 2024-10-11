@@ -1,25 +1,12 @@
-<?php
-session_start();
-include("database.php");
-
-// Fetch user details from the database
-$fname = $_SESSION['fname'];
-$sql = "SELECT * FROM freelancer_register WHERE fname = '$fname'";
-$result = $conn->query($sql);
-$user = $result->fetch_assoc();
-
-$conn->close();
-?>
-
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" Contont="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <title>Nexus Nova Client Space</title>
-    <link rel="stylesheet" href="css/Freelance_Clients.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <title>Client Space</title>
+    <link rel="stylesheet" href="../../css/Freelance_Clients.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=melodrama@400&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
@@ -32,13 +19,9 @@ $conn->close();
 
 <body>
     <div class="Navbar">
-        <p id="Logo" href="#">Nexus Nova Client Space</p>
-        <a href="Profile_Page.php"><i class="fa-solid fa-user"></i></a>
-    </div>
+        <p id="Logo" href="#">Client Space</p>
+        <a href="../profiles/Profile_Page.php"><i class="fa-solid fa-user"></i></a>
 
-    <div class="container">
-        <h3>Welcome, <?php echo $user['fname']; ?></h3>
-        <a href="logout.php">"Logout"</a>
     </div>
 
     <div class="SearchBar">
@@ -54,23 +37,23 @@ $conn->close();
     <h3 style="margin-left: 5%;">Top Freelancers</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile01.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile01.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 40px;">Hari Kiran</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile02.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile02.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 47px;">Asritha</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">Rakshan Kumar</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 43px;">Chandra</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile05.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile05.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 24px;">Grace Tejaswini</p>
         </div></a>
     </div>
@@ -87,14 +70,14 @@ $conn->close();
     <h3 style="margin-left: 5%;">Freelancers You Worked With Previously!</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">
                  Rakshan Kumar <br>
                   <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i> <i class="fa-solid fa-star stardom"></i>
                 </p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile04.png" alt="" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 43px;">Chandra <br> 
                 <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
               </p>
@@ -116,15 +99,15 @@ $conn->close();
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-            <a href="#">For Clients</a> <br>
-            <a href="#">For Freelancers</a> <br>
-            <a href="#">How to Find work?</a> <br>
-            <a href="#">How does it work?</a> <br>
-            <a href="aboutuspage.php">About Us</a>
+        <a href="../search/clientz.php">For Clients</a> <br>
+            <a href="../search/freelancerz.php">For Freelancers</a> <br>
+            <a href="../about/howtohire.php">How does it work?</a> <br>
+            <a href="../about/aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here: &nbsp;<a href="mailto:chandrachintu2007@gmail.com"><img style="transform: translate(0px,3px);" src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here: &nbsp;<a href="mailto:chandrachintu2007@gmail.com"><img style="transform: translate(0px,3px);" src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
 </body>
-</php>
+
+</html>

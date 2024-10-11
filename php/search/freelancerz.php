@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancerz</title>
-    <link rel="stylesheet" href="css/freelancerz.css">
+    <link rel="stylesheet" href="../../css/freelancerz.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a href="index.php">Nexus Nova</a>
+            <a href="../../index.php">Nexus Nova</a>
         </div>
         <div class="input-div-main">
             <div class="input-div">
@@ -19,10 +19,10 @@
                     <input type="text" class="search" id="search" placeholder="Hire a Freelancer">
                 </div>
                 <div>
-                    <button onclick="" class="srch-btn" id="srchbtn"><img src="images/search.png" class="srch-img"></button>
+                    <button onclick="" class="srch-btn" id="srchbtn"><img src="../../images/search.png" class="srch-img"></button>
                 </div>
                 <div class="filter-div">
-                    <button onclick="" class="filter-btn" id="filterbtn"><img src="images/filter.png" class="filter-img"></button>
+                    <button onclick="" class="filter-btn" id="filterbtn"><img src="../../images/filter.png" class="filter-img"></button>
                     <div class="dropdowndiv" id="dropdowncontainer">
 
                         <div class="dropdownlinks-div">
@@ -106,7 +106,7 @@
 
                 <div class="cards" data-name="editor">
                     <div class="card-img">
-                        <img src="images/man1.png" class="card-images">
+                        <img src="../../images/man1.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Hari</div>
@@ -125,7 +125,7 @@
 
                 <div class="cards" data-name="web developer">
                     <div class="card-img">
-                        <img src="images/avatar.png" class="card-images">
+                        <img src="../../images/avatar.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Tejaswini</div>
@@ -143,7 +143,7 @@
                 <div class="cards" data-name="Content Writing">
 
                     <div class="card-img">
-                        <img src="images/man4.png" class="card-images">
+                        <img src="../../images/man4.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Chandra</div>
@@ -159,7 +159,7 @@
     
                 <div class="cards" data-name="Photographer">
                     <div class="card-img">
-                        <img src="images/man6.png" class="card-images">
+                        <img src="../../images/man6.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Harsha</div>
@@ -175,7 +175,7 @@
 
                 <div class="cards" data-name="web developer">
                     <div class="card-img">
-                        <img src="images/avatar2.png" class="card-images">
+                        <img src="../../images/avatar2.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Asritha</div>
@@ -191,7 +191,7 @@
 
                 <div class="cards" data-name="content Writing">
                     <div class="card-img">
-                        <img src="images/man3.png" class="card-images">
+                        <img src="../../images/man3.png" class="card-images">
                     </div>
                     <div class="card-data">
                         <div class="card-name">Rakshan</div>
@@ -225,12 +225,11 @@
         </div>
         <div class="Margin2" style="margin: 1.7%;">
             <a style="color:#ffecd1" href="clientz.php">For Clients</a> <br>
-            <a style="color:#ffecd1" href="freelancerz.php">For Freelancers</a> <br>
-            <a style="color:#ffecd1" href="howtohire.php">How does it work?</a> <br>
-            <a style="color:#ffecd1" href="aboutuspage.php">About Us</a>
+            <a style="color:#ffecd1" href="../about/howtohire.php">How does it work?</a> <br>
+            <a style="color:#ffecd1" href="../about/aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
 

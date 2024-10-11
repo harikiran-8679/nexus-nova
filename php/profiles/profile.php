@@ -1,12 +1,20 @@
+<?php
+session_start();
+if (!isset($_SESSION['fname'])) {
+    header('Location: LGNFRM.php'); // Redirect to signup if session is not set
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" Contont="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
-    <title>Client Space</title>
-    <link rel="stylesheet" href="css/Freelance_Clients.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
+    <title>Nexus Nova Client Space</title>
+    <link rel="stylesheet" href="../../css/Freelance_Clients.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=melodrama@400&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
@@ -19,9 +27,12 @@
 
 <body>
     <div class="Navbar">
-        <p id="Logo" href="#">Client Space</p>
-        <a href="Profile_Page.php"><i class="fa-solid fa-user"></i></a>
+        <p id="Logo" href="#">Nexus Nova Client Space</p>
+        <a style="text-decoration: none; color: #ffecd1; margin-left: 73%; margin-top:1.43%" href="../login/logout.php">Logout</a>
+    </div>
 
+    <div class="Welcome" style="display: flex;">
+        <h3 style="margin-left: 5%;">Welcome, <?php echo $_SESSION['fname']; ?></h3>
     </div>
 
     <div class="SearchBar">
@@ -99,9 +110,10 @@
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-        <a href="clientz.php">For Clients</a> <br>
-            <a href="freelancerz.php">For Freelancers</a> <br>
-            <a href="howtohire.php">How does it work?</a> <br>
+            <a href="#">For Clients</a> <br>
+            <a href="#">For Freelancers</a> <br>
+            <a href="#">How to Find work?</a> <br>
+            <a href="#">How does it work?</a> <br>
             <a href="aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
@@ -109,5 +121,4 @@
         </div>
     </div>
 </body>
-
 </html>

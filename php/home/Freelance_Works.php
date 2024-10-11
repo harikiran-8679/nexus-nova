@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" Contont="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/2.png">
     <title>Nexus Nova</title>
-    <link rel="stylesheet" href="css/freelance_works.css">
+    <link rel="stylesheet" href="../../css/freelance_works.css">
     
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=melodrama@400&display=swap" rel="stylesheet">
@@ -39,31 +39,31 @@
     <div class="Container">
         <a id="Section" href="">
             <div class="Content01">
-                <img src="images/DigitalMarketing.png" height="70px">
+                <img src="../../images/DigitalMarketing.png" height="70px">
                 <p>Digital Marketing</p>
             </div>
         </a>
         <a id="Section" href="">
             <div class="Content01">
-                <img src="images/WebDev.png" height="70px">
+                <img src="../../images/WebDev.png" height="70px">
                 <p>Web Development</p>
             </div>
         </a>
         <a id="Section" href="">
             <div class="Content01">
-                <img src="images/VideoEditing.png" height="70px" style="margin-left: 40px;">
+                <img src="../../images/VideoEditing.png" height="70px" style="margin-left: 40px;">
                 <p style="margin-left: 35px;"> Video Editing</p>
             </div>
         </a>
         <a id="Section" href="">
             <div class="Content01">
-                <img src="images/ContentWriting.png" height="70px" >
+                <img src="../../images/ContentWriting.png" height="70px" >
                 <p>Content Writing</p>
             </div>
         </a>
         <a id="Section" href="">
             <div class="Content01">
-                <img src="images/GraphicDesign.png" height="70px" style="margin-left: 40px;">
+                <img src="../../images/GraphicDesign.png" height="70px" style="margin-left: 40px;">
                 <p>Graphic Designing</p>
             </div>
         </a>
@@ -74,23 +74,23 @@
     <h3 style="margin-left: 5%;">Successfull Freelancers</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile04.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile04.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 43px;">Chandra</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile05.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile05.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 24px;">Grace Tejaswini</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile01.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile01.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 40px;">Hari Kiran</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile02.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile02.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 47px;">Asritha</p>
         </div></a>
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">Rakshan Kumar</p>
         </div></a>
        
@@ -117,7 +117,7 @@
         </div>
                 
         <div class="imgdiv1">
-            <img src="images/howtohireimg1.jpg" class="image">
+            <img src="../../images/howtohireimg1.jpg" class="image">
         </div> 
     </div>
 
@@ -134,7 +134,7 @@
                 - You can adjust categories, skills for a cistom tailored experience. <br>
             </p> 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg3.jpg" class="img1 steps-img">
+                <img src="../../images/howtohireimg3.jpg" class="img1 steps-img">
             </div>
         </div>
 
@@ -150,7 +150,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg6.jpg" class="img2">
+                <img src="../../images/howtohireimg6.jpg" class="img2">
             </div>
     
         </div>
@@ -163,7 +163,7 @@
            </p>
 
            <div class="stepsimgdiv">
-            <img src="images/howtohireimg4.jpg" class="img3">
+            <img src="../../images/howtohireimg4.jpg" class="img3">
         </div>
         </div>
         
@@ -176,7 +176,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg5.jpg" class="img4">
+                <img src="../../images/howtohireimg5.jpg" class="img4">
             </div>
         </div>
         
@@ -188,7 +188,7 @@
             </p>
 
             <div class="stepsimgdiv">
-                <img src="images/howtohireimg2.jpg" class="img5">
+                <img src="../../images/howtohireimg2.jpg" class="img5">
             </div>
         </div>
 
@@ -207,7 +207,7 @@
     <h3 style="margin-left: 5%;">Top Clients</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">Rakshan Kumar</p>
         </div></a>
     </div>
@@ -217,7 +217,7 @@
     <h3 style="margin-left: 5%;">Clients That You Worked With!</h3>
     <div class="Container">
         <a id="Section" href=""><div class="Content01">
-            <img src="images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
+            <img src="../../images/Profile03.jpg" height="70px" style="margin-left: 27%;"> 
             <p style="margin-left: 22px;">Rakshan Kumar</p>
         </div></a>
     </div>
@@ -234,13 +234,13 @@
             <img width="40" height="40" src="https://img.icons8.com/office/40/linkedin.png" alt="linkedin"/>
         </div>
         <div class="Margin2" style="margin: 1.7%;">
-        <a href="clientz.php">For Clients</a> <br>
-            <a href="freelancerz.php">For Freelancers</a> <br>
-            <a href="howtohire.php">How does it work?</a> <br>
-            <a href="aboutuspage.php">About Us</a>
+        <a href="../search/clientz.php">For Clients</a> <br>
+            <a href="../search/freelancerz.php">For Freelancers</a> <br>
+            <a href="../about/howtohire.php">How does it work?</a> <br>
+            <a href="../about/aboutuspage.php">About Us</a>
         </div>
         <div class="Margin1">
-            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
+            <p>Provide us with a review over here:<a href="mailto:chandrachintu2007@gmail.com"><img src="../../images/Gmail.png" height="16px" width="20px" alt=""></a> </p>
         </div>
     </div>
 </body>
